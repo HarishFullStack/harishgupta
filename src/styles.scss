@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+/* Header */
+h1 {
+    text-align: center !important;
+    text-decoration: solid !important;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+  }
+
+h2{
+    margin-top: 2rem !important;
+    text-decoration: underline !important;
+    text-decoration-color: #3f51b5 !important;
+    text-underline-offset: 0.25rem !important;
+    text-decoration-thickness: 0.20rem !important;
+    font-size: 20px;
+  }
+  
+  h3{
+    font-size: 20px !important;
+    margin-top: 1rem !important;
+  }

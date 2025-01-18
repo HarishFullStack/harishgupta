@@ -5,9 +5,18 @@ import { FormsModule } from '@angular/forms'; // Example of another module impor
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
+import { BlogsComponent } from './blogs/blogs.component';
+import { BlogComponent } from './blog/blog.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    NavBarComponent,
+    BlogsComponent,
+    BlogComponent,
+  ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
   bootstrap: [AppComponent],
