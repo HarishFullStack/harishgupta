@@ -59,4 +59,34 @@ export const blogPosts = [
     img: 'what-is-ng-container-in-angular.png',
     url: 'what-is-ng-container-in-angular',
   },
+  {
+    id: 7,
+    title: 'What is ng-content in Angular?',
+    post: '<h1>What is <code>ng-content</code> in Angular?</h1>\n <strong>Do not confuse it with ng-container</strong> <p>Think of <code>ng-content</code> as a placeholder or a blank spot in your component HTML template, waiting to be filled from outside.</p> <p>Instead of hardcoding the content inside your components, you can let the parent component pass what to display.</p> <p>This makes your Angular components reusable by letting them display different content based on where and how they’re used.</p> <h3>Example:</h3> <h4>Child Component <code>&lt;app-card&gt;</code> with ng-content</h4> <pre><code>&lt;div class="card"&gt;  &lt;h3&gt;Card Title&lt;/h3&gt;  &lt;ng-content&gt;&lt;/ng-content&gt; &lt;!-- Placeholder for parent content --&gt; &lt;/div&gt;</code></pre> <h4>Parent Component passing the content</h4> <pre><code>&lt;app-card&gt;  &lt;p&gt;This is the content passed from the parent!&lt;/p&gt; &lt;/app-card&gt;</code></pre> <p><code>ng-content</code> helps make UI reusable and customizable, keeping code clean and modular.</p>',
+    highlight:
+      '<strong>Do not confuse it with ng-container</strong></h1> <p>Think of <code>ng-content</code> as a placeholder or a blank spot in your component HTML...',
+    date: '2025-02-08',
+    img: 'what-is-ng-content-in-angular.png',
+    url: 'what-is-ng-content-in-angular',
+  },
+  {
+    id: 8,
+    title: 'What Are Angular Pipes?',
+    post: '<h1>What Are Angular Pipes?</h1> <p>Pipes in Angular are tools that let you transform data right in your HTML templates.</p> <p>They allow you to format dates, currencies, or strings without writing extra code in your components.</p> <h2>Built-in Pipes in Angular</h2> <ol> <li><strong>DatePipe</strong><br> <code>&lt;p&gt;{{ today | date:&quot;fullDate&quot; }}&lt;/p&gt;</code></li> <li><strong>CurrencyPipe</strong><br> <code>&lt;p&gt;{{ price | currency:&quot;USD&quot; }}&lt;/p&gt;</code></li> <li><strong>UpperCasePipe &amp; LowerCasePipe</strong><br> <code>&lt;p&gt;{{ message | uppercase }}&lt;/p&gt;</code></li> <li><strong>DecimalPipe</strong><br> <code>&lt;p&gt;{{ value | number:&quot;1.2-2&quot; }}&lt;/p&gt;</code></li> <li><strong>PercentPipe</strong><br> <code>&lt;p&gt;{{ score | percent }}&lt;/p&gt;</code></li> </ol> <p>Using a pipe is simple! Just insert the pipe symbol <code>|</code> in your template between the variable and the name of the pipe.</p> <p>You can even chain pipes together for more complex transformations:</p> <code>&lt;p&gt;{{ amount | currency:&quot;USD&quot; | uppercase }}&lt;/p&gt;</code>',
+    highlight:
+      'Pipes in Angular are tools that let you transform data right in your HTML templates.</p> <p>They allow you to format dates,...',
+    date: '2025-02-10',
+    img: 'what-are-angular-pipes.png',
+    url: 'what-are-angular-pipes',
+  },
+  {
+    id: 9,
+    title: 'Moving from a software developer to a tech lead',
+    post: '<h1>Moving from a software developer to a tech lead</h1><p>Moving from a <strong>software developer to a tech lead</strong> is a huge accomplishment, but the transition comes with its own set of challenges.</p> <p>It isn’t just about writing great code anymore; rather, it is about leading a team, making decisions, and ensuring projects run smoothly.</p> <p>Here are a few <strong>common mistakes</strong> that new tech leads may make and how to avoid them:</p> <h2>1. Trying to Do All the Coding Yourself</h2> <p>As a tech lead, your role shifts from doing all the coding to overseeing the team’s technical direction. Focusing too much on writing code can lead to burnout and micromanagement.</p> <p><strong>Learning:</strong> It’s crucial to delegate and trust your team. As a tech lead, your role is to guide the team and focus on the bigger picture.</p> <h2>2. Not Giving Enough Feedback</h2> <p>A new tech lead hesitates to give feedback, worried about how it might be received.</p> <p><strong>Learning:</strong> Offer constructive feedback regularly, focusing on growth and improvement.</p> <h2>3. Micromanaging Instead of Leading</h2> <p>Falling into the trap of micromanaging the team, thinking you need to control every detail.</p> <p><strong>Learning:</strong> It’s important to trust the team to do their job. Empower the team to make decisions and trust them to deliver.</p> <h2>4. Focusing Too Much on Daily Tasks</h2> <p>Getting caught up in day-to-day tasks and forgetting about long-term goals.</p> <p><strong>Learning:</strong> Focus on long-term goals like scalability and technical debt.</p> <p>Transitioning from a developer to a tech lead means shifting from just writing code to leading and mentoring others.</p>',
+    highlight:
+      'Pipes in Angular are tools that let you transform data right in your HTML templates.</p> <p>They allow you to format dates,...',
+    date: '2025-02-12',
+    img: 'moving-from-a-software-developer-to-a-tech-lead.png',
+    url: 'moving-from-a-software-developer-to-a-tech-lead',
+  },
 ];
